@@ -1,13 +1,5 @@
 #include<stdio.h>
 
-int Sum(int n){
-    if(n==0)
-    {
-        return 0;
-    }
-    int pre=Sum(n-1);
-    return Sum(n)+pre;
-}
 
 int main(){
     int n;
